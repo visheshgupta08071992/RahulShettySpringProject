@@ -1,0 +1,16 @@
+CREATE DATABASE APIDevelopSpringBoot;
+
+use APIDevelopSpringBoot;
+
+CREATE TABLE Storage2(book_name varchar(50),id varchar(50),
+
+isbn varchar(50),
+
+aisle int,
+
+author varchar(50),PRIMARY KEY (id));
+
+
+INSERT INTO Storage2(book_name,id,isbn,aisle,author) values("Appium","fdsefr343","fdsefr3","43","Rahul Shetty");
+
+select * from LibraryDemo where id = 'fdsefr343'
